@@ -1,0 +1,30 @@
+[
+    {
+        "user":"user1",
+        "department":"development",
+        "position":"manager",
+        "project":"project1"
+    },
+    {
+        "user":"user2",
+        "department":"development",
+        "position":"developer",
+        "project":"project2"
+    },
+    {
+        "user":"user3",
+        "department":"development",
+        "position":"project manager",
+        "project":"project2"
+    },
+    {
+        "resource":"file1",
+        "project":"project1"
+    },
+    {
+        "resource":"file2",
+        "project":"project2"
+    }
+    
+]
+
