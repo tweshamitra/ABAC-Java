@@ -2,12 +2,12 @@ import java.util.*;
 public class Resource{
     private String project;
     private String name;
-    private static HashMap<String, String> attributes = new HashMap<>();
-    public Resource(String project, String name){
+    private String owner;
+    private HashMap<String, String> attributes = new HashMap<>();
+    public Resource(String project, String name, String owner){
         this.project = project;
         this.name = name;
         populateHashmap();
-        //printHashmap();
     }
     private void populateHashmap(){
         attributes.put("project", this.project);
@@ -17,10 +17,9 @@ public class Resource{
     public HashMap getResourceAttributes(){
         return this.attributes;
     }
+    
     public void printHashmap(){
         System.out.println(attributes);
     }
-    public String getName(){
-        return this.name;
-    }
+    
 }
